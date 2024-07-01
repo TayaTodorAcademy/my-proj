@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta
+            name="viewport"
+            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Форма</title>
+</head>
+<body>
+<form action="" method="post">
+    <label>Введіть інформацію про себе:</label><br /><br />
+    <label for="first-name">Прізвище</label>
+    <input type="text" id="first-name" name="first-name" /><br /><br />
+    <label for="second-name">Ім'я</label>
+    <input type="text" id="second-name" name="second-name" /><br /><br />
+    <p>З якого ви міста?</p>
+    <label>
+        <input type="radio" name="city" value="Київ" />Київ<br />
+        <input type="radio" name="city" value="Одеса" />Одеса<br />
+        <input type="radio" name="city" value="Дніпро" />Дніпро</label
+    >
+    <br /><br />
+    <label for="email-address">Введіть вашу електронну адресу</label>
+    <input type="email" id="email-address" name="email" />
+    <p>Ви згодні на обробку ваших даних?</p>
+    <input type="checkbox" id="agreement" name="yes" />
+    <label for="agreement">Підтвердження згоди</label><br /><br />
+    <button type="submit">Надіслати</button>
+</form>
+</body>
+</html>
